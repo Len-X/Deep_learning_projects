@@ -92,7 +92,7 @@ classifier.fit_generator(training_set,
 import numpy as np
 from keras.preprocessing import image
 
-test_image = image.load_img("DL/Convolutional_Neural_Networks/dataset/single_prediction/cat_or_dog_4.jpeg",
+test_image = image.load_img("DL/Convolutional_Neural_Networks/dataset/single_prediction/cat_or_dog_2.jpg",
                             target_size=(128, 128)) # was (64, 64)
 test_image = image.img_to_array(test_image)
 test_image = np.expand_dims(test_image, axis=0) # first dimension will have a first index: 0
